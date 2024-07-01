@@ -2,17 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package project.part1;
-
-/**
- *
- * @author RC_Student_lab
- */
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
 
-public class Tasks {
+class Task3 {
     String input = "";
     private List<String> developers = new ArrayList<>();
     private List<String> taskNames = new ArrayList<>();
@@ -124,4 +118,3 @@ public class Tasks {
         JOptionPane.showMessageDialog(null, "Task '" + taskName + "' not found.");
     }
 }
-
